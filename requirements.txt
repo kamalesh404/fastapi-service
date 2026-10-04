@@ -1,0 +1,9 @@
+"""
+FastAPI Service - Production Requirements
+"""
+
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+sqlalchemy==2.0.35
+pydantic==2.7.2
+python-dotenv==1.0.1

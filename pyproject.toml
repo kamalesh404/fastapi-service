@@ -1,0 +1,29 @@
+"""
+FastAPI Python API Service
+High-performance REST API for AI/ML backend services.
+"""
+
+from setuptools import setup, find_packages
+
+setup(
+    name="fastapi-service",
+    version="1.0.0",
+    description="FastAPI Python API Service with authentication and database",
+    packages=find_packages(),
+    python_requires=">=3.12",
+    install_requires=[
+        "fastapi>=0.111.0",
+        "uvicorn[standard]>=0.30.0",
+        "sqlalchemy>=2.0.0",
+        "pydantic>=2.7.0",
+        "python-dotenv>=1.0.0",
+    ],
+    extras_dev={
+        "dev": [
+            "pytest>=8.0.0",
+            "pytest-asyncio>=0.24.0",
+            "black>=24.0.0",
+            "ruff>=0.3.0",
+        ]
+    },
+)
