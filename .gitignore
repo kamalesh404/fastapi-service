@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.staging
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+.pytest_cache/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Docker
+.docker/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Storage
+storage/
+uploads/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# IDE specific
+*.iml
+*.ipr
+*.iws
+
+# Secrets
+*.pem
+*.key
+*.crt
